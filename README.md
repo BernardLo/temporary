@@ -8,7 +8,7 @@ http://bmo-test.s3-website.us-east-2.amazonaws.com/
 
 2.Run Locally
 -----------
-### bmo-test (Local APi)
+### bmo-test (Local API)
 1. cd bmo-test
 2. ./mvnw spring-boot:run
 
