@@ -1,0 +1,9 @@
+
+  {
+   "/#/": {
+      "target": "http://socdevodsbi2:8888",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    } 
+ }
