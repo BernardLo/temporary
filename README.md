@@ -8,11 +8,11 @@ http://bmo-test.s3-website.us-east-2.amazonaws.com/
 
 2.Run Locally
 -----------
-## bmo-test (Local APi)
+### bmo-test (Local APi)
 1. cd bmo-test
 2. ./mvnw spring-boot:run
 
-## bmo-test-ng
+### bmo-test-ng
 1. cd bmo-test-ng
 2. ng serve --live-reload=true --proxy-config proxy.conf.json  (note: Use local API)
 
