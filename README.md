@@ -1,12 +1,12 @@
 # BMO Take Home Test
 
-Hosted Angular application URL
+1.Hosted Angular application URL
 ------------------------------
 (Work with Firefox with CORS extension enabled e.g. CORS Everywhere)
 http://bmo-test.s3-website.us-east-2.amazonaws.com/
 
 
-Run Locally
+2.Run Locally
 -----------
 ## bmo-test (Local APi)
 1. cd bmo-test
@@ -18,7 +18,7 @@ Run Locally
 
 * Web application URL: http://127.0.0.1:4200
 
-GitHub repository URL
+3.GitHub repository URL
 ---------------------
 https://github.com/BernardLo/temporary.git
 
