@@ -1,0 +1,31 @@
+<h3>Search Person:</h3>
+<form name="searchitem" class="searchitem" id="searchitem">
+    <table>
+        <tr>
+            <td><label for="name">Search by: </label></td>
+            <td><label for="name">First Name</label></td>
+            <td><input  type="text" class="" name="firstName" [(ngModel)]="searchParam.firstName"  ></td>
+            <td><label for="name">Last Name</label></td>
+            <td><input type="text" class="" name="lastName" [(ngModel)]="searchParam.lastName"></td>
+
+            <td>	   <button (click)="searchPerson();" >Search</button>&nbsp;&nbsp;&nbsp;   </td>
+        </tr>
+    </table>
+    <hr>
+    <ngx-datatable #table
+        class="bootstrap"
+        style="height: 480px;"              
+        columnMode="force"
+
+        [headerHeight]="50"
+        [footerHeight]="0"
+        [rowHeight]="50"
+
+        [scrollbarV]="true"
+        [scrollbarH]="true"
+                    
+        [rows]="personList"
+        [columns]="columns"
+        [externalSorting]="false">               
+    </ngx-datatable>
+</form>

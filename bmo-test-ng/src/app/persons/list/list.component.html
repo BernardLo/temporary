@@ -1,0 +1,23 @@
+
+<h3>Persons:</h3>
+<table>
+
+	<ngx-datatable #table
+     	class="bootstrap"
+       style="height: 480px;"              
+        columnMode="force"
+
+        [headerHeight]="30"
+        [footerHeight]="0"
+        [rowHeight]="30"
+
+        [scrollbarV]="true"
+        [scrollbarH]="true"
+                 
+        [rows]="personList"
+        [columns]="columns"
+        [externalSorting]="false"
+              
+       >               
+       </ngx-datatable>
+</table>
